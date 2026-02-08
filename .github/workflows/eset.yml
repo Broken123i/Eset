@@ -1,4 +1,4 @@
-name: Account Generator
+name: Account and Key Generator
 
 on:
  # schedule: #if need schedule 
