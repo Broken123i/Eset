@@ -1,4 +1,4 @@
-name: Account and Key Generator
+name: Account Generator
 
 on:
  # schedule: #if need schedule 
@@ -10,12 +10,7 @@ on:
         required: false
         default: '1'
         type: string
-      key:
-        description: 'Number of Keys to be generated (default = 0)'
-        required: false
-        default: '0'
-        type: string
-      mail:
+        mail:
         description: 'Choose the mail provider to generate license'
         required: true
         type: choice
